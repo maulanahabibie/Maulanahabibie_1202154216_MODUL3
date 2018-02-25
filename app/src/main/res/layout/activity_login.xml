@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="maulanahabibie_1202154216_modul3.com.maulanahabibie_1202154216_modul3.LoginActivity">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="match_parent"
+		android:layout_height="173dp"
+		app:srcCompat="@drawable/splash" />
+
+	<EditText
+		android:id="@+id/username"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:ems="10"
+		android:hint="UserName"
+		android:inputType="textPersonName" />
+
+	<EditText
+		android:id="@+id/password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:ems="10"
+		android:hint="PassWord"
+		android:inputType="textPassword" />
+
+	<Button
+		android:id="@+id/buttonLogin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="login"
+		android:layout_gravity="center"
+		android:background="@color/colorPrimaryDark"
+		android:onClick="login" />
+</LinearLayout>
